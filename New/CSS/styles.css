@@ -1,0 +1,23 @@
+.wrapper {
+    background-color: #6a9;
+    padding-bottom: 25px;
+}
+
+header {
+    font-size: 4em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    font-size: 2em;
+    font-family: 'Open Sans', sans-serif;
+    padding-right: 15px;
+}
+
+p, li {
+    font-family: helvetica, sans-serif;
+}
+
+body {
+    background-color: fefefe;
+}
