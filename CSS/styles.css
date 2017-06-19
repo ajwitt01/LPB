@@ -1,0 +1,62 @@
+.wrapper {
+    background-color: #074;
+    padding-bottom: 25px;
+    border-radius: 10px;
+}
+
+header {
+    font-size: 3.5em;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    text-shadow: 4px 4px #000;
+    color: whitesmoke;
+}
+
+h1, p, li {
+    font-family: helvetica, sans-serif;
+}
+
+.link {
+    font-size: 1.75em;
+    font-family: 'Open Sans', sans-serif;
+    padding-right: 15px;
+}
+
+body {
+    padding: 20 20 0 20;
+    background-color: whitesmoke;
+}
+
+p, li {
+    font-size: 1.25em;
+}
+
+/*FIX CAROUSEL SO PICTURES DO NOT DIP BELOW WINDOW ON DESKTOP SCREENS*/
+@media (min-width:1000px){
+
+/* THIS WORKS!!!!*/
+/*
+    #myCarousel {
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+*/
+/* WORK ON THIS SO IT'S CENTERED' */
+    #myCarousel {
+        max-width: 50%;
+
+    }
+    
+    
+}
+
+
+/* MAY NOT BE NEEDED IF MEDIA QUERY WORKS PROPERLY
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    justify-content: center;
+    width:1400px;
+    padding-left: 500px
+}
+*/
+
+
