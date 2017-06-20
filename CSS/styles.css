@@ -12,7 +12,7 @@ header {
     color: whitesmoke;
 }
 
-h1, p, li {
+h1, p, li, label  {
     font-family: helvetica, sans-serif;
 }
 
@@ -35,13 +35,14 @@ p, li {
 @media (min-width:1000px){
 
 /* THIS WORKS!!!!*/
-/*
+/**/
     #myCarousel {
         padding-left: 25%;
         padding-right: 25%;
     }
-*/
-/* WORK ON THIS SO IT'S CENTERED' */
+}
+    
+ /*WORK ON THIS SO IT'S CENTERED' 
     #myCarousel {
         max-width: 50%;
 
@@ -49,7 +50,7 @@ p, li {
     
     
 }
-
+*/
 
 /* MAY NOT BE NEEDED IF MEDIA QUERY WORKS PROPERLY
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
