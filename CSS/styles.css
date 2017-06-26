@@ -20,6 +20,11 @@ h1, p, li, label  {
     font-size: 1.75em;
     font-family: 'Open Sans', sans-serif;
     padding-right: 15px;
+    text-decoration: none;
+}
+
+.link:hover {
+   text-decoration: underline;
 }
 
 body {
@@ -27,39 +32,32 @@ body {
     background-color: whitesmoke;
 }
 
-p, li {
+/*p, li {
     font-size: 1.25em;
+}*/
+
+.group {
+    max-width: 50%;
+    float: right;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: thin;
+}
+@media (max-width:1000px) {
+    .group {
+        float:none;
+        max-width: 95%;
+    }   
 }
 
-/*FIX CAROUSEL SO PICTURES DO NOT DIP BELOW WINDOW ON DESKTOP SCREENS*/
 @media (min-width:1000px){
-
-/* THIS WORKS!!!!*/
-/**/
+    
+/*FIX CAROUSEL SO PICTURES DO NOT DIP BELOW WINDOW ON DESKTOP SCREENS*/
     #myCarousel {
         padding-left: 25%;
         padding-right: 25%;
         background-color: whitesmoke;
     }
     
-}
-    
- /*WORK ON THIS SO IT'S CENTERED' 
-    #myCarousel {
-        max-width: 50%;
-
-    }
-    
     
 }
-*/
-
-/* MAY NOT BE NEEDED IF MEDIA QUERY WORKS PROPERLY
-.carousel-inner > .item > img, .carousel-inner > .item > a > img {
-    justify-content: center;
-    width:1400px;
-    padding-left: 500px
-}
-*/
-
-
