@@ -13,7 +13,7 @@ header {
 }
 
 h1, p, li, label  {
-    font-family: helvetica, sans-serif;
+    font-family: 'open sans', sans-serif;
 }
 
 .link {
@@ -29,20 +29,21 @@ h1, p, li, label  {
 
 body {
     padding: 20 20 0 20;
-    background-color: whitesmoke;
+    background-color: whitesmoke!important;
 }
 
-/*p, li {
-    font-size: 1.25em;
-}*/
-
-.group {
+.group, .ted {
     max-width: 50%;
     float: right;
     border-radius: 10px;
     border-style: solid;
     border-width: thin;
 }
+
+.ted {
+    max-width: 30%
+}
+
 @media (max-width:1000px) {
     .group {
         float:none;
@@ -58,6 +59,4 @@ body {
         padding-right: 25%;
         background-color: whitesmoke;
     }
-    
-    
 }
