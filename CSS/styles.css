@@ -5,7 +5,7 @@
 }
 
 header {
-    font-size: 3.5em;
+    font-size: 3.5em!important;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     text-shadow: 4px 4px #000;
@@ -40,6 +40,31 @@ body {
     border-width: thin;
 }
 
+.henderson {
+    max-width: 50%;
+    float: left;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: thin;
+}
+
+/***** STYLES FOR STICKY FOOTER *****/
+
+.content {
+  min-height: calc(100vh - 110px);
+}
+
+footer {
+    text-align: center;
+    padding: 5px 0px;
+}
+
+footer img, footer p {
+    max-height: 40px;
+    display: inline;
+}
+
+/***** MEDIA QUERIES *****/
 @media (max-width:1000px) {
     .group {
         float:none;
@@ -53,6 +78,5 @@ body {
     #myCarousel {
         padding-left: 25%;
         padding-right: 25%;
-        background-color: whitesmoke;
     }
 }
