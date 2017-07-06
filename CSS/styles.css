@@ -43,14 +43,6 @@ body {
     border-width: thin;
 }
 
-.henderson {
-    max-width: 50%;
-    float: left;
-    border-radius: 10px;
-    border-style: solid;
-    border-width: thin;
-}
-
 .carousel-control.right, .carousel-control.left, .item {
     margin-bottom: 25px;
 }
@@ -80,7 +72,14 @@ footer img, footer p {
     .group {
         float:none;
         max-width: 95%;
-    }   
+    } 
+    input, label, button {
+        font-size: 1.5em;
+        width: 100%;
+    }
+    #lessons, #events {
+        width:inherit;
+    }
 }
 
 @media (min-width:1000px){
