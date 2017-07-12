@@ -32,7 +32,6 @@ body {
     padding: 20 20 0 20;
     background-color: whitesmoke!important;
 }
-/******************************/
 
 /***** STYLES TO FIX SPECIFIC THINGS *****/
 .group, .ted {
@@ -46,7 +45,6 @@ body {
 .carousel-control.right, .carousel-control.left, .item {
     margin-bottom: 25px;
 }
-/*****************************************/
 
 /***** STYLES FOR STICKY FOOTER *****/
 
@@ -63,9 +61,6 @@ footer img, footer p {
     max-height: 40px;
     display: inline;
 }
-/***********************************/
-
-
 
 /***** MEDIA QUERIES *****/
 @media (max-width:1000px) {
