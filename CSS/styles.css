@@ -98,6 +98,12 @@ footer img, footer p {
     footer img, footer p {
         max-height: inherit;
     }
+    footer {
+        padding-top: 50px;
+    }
+    label {
+        padding-right: 15px;
+    }
 }
 
 @media (min-width:1000px){
