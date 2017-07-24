@@ -13,7 +13,7 @@ header {
     color: whitesmoke;
 }
 
-h1, p, li, label, table  {
+h1, p, li, label, table, h2  {
     font-family: 'open sans', sans-serif;
 }
 
@@ -45,6 +45,15 @@ table, th, td {
 
 tr:nth-child(odd) {
     background-color: #ddd;
+}
+
+#members li{
+    list-style: none;
+    padding: 2px
+}
+
+#members {
+    padding: 0 0 25px 25px;
 }
 
 /***** STYLES TO FIX SPECIFIC THINGS *****/
