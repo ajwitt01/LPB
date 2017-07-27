@@ -1,6 +1,6 @@
 /***** GENERAL STYLES *****/
 .wrapper {
-    background-color: #074;
+    background-color: #07793d;
     padding-bottom: 25px;
     border-radius: 10px;
 }
@@ -26,10 +26,13 @@ label {
     font-family: 'Open Sans', sans-serif;
     padding-right: 15px;
     text-decoration: none;
+    color: black;
 }
 
 .link:hover {
-   text-decoration: underline;
+    background-color: #07793d;
+    border-radius: 10px;
+    color: whitesmoke;
 }
 
 body {
@@ -152,7 +155,7 @@ body {margin:0;}
     float: right;
     display: block;
     font-size: 4em;
-    color: #074;
+    color: #07793d;
   }
 }
 
