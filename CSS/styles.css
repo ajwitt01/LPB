@@ -35,7 +35,7 @@ label {
 }
 
 .link:hover {
-    background-color: #07793d;
+    background-color: #076f38;
     border-radius: 10px;
     color: whitesmoke;
 }
@@ -160,7 +160,7 @@ body {margin:0;}
     float: right;
     display: block;
     font-size: 4em;
-    color: #07793d;
+    color: #076f38;
   }
 }
 
