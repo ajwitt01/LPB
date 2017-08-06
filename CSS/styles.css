@@ -1,7 +1,6 @@
 /***** GENERAL STYLES *****/
 .wrapper {
     background-color: #076f38;
-/*    padding-bottom: 25px;*/
     border-radius: 10px;
 }
 
@@ -12,14 +11,18 @@
 
 header {
     font-size: 3.5em!important;
-    font-family: 'Open Sans', sans-serif;
+/*    font-family: 'Open Sans', sans-serif;*/
     text-align: center;
     text-shadow: 4px 4px #000;
     color: whitesmoke;
 }
 
-h1, p, li, label, table, h2  {
+p, li, table, h2  {
     font-family: 'open sans', sans-serif;
+}
+
+h1 {
+    font-family: 'oswald', sans-serif;
 }
 
 label {
@@ -28,7 +31,7 @@ label {
 
 .link {
     font-size: 1.75em;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'oswald', sans-serif;
     padding-right: 15px;
     text-decoration: none;
     color: black;
